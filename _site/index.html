@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="public/plugins/prism/prism.css">
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="public/css/styles-5.css">
+    <link id="theme-style" rel="stylesheet" href="public/css/animate.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -47,7 +48,7 @@
         <div class="container">            
             <h1 class="logo pull-left">
                 <a class="scrollto" href="#promo">
-                    <span class="logo-title">zmNinja</span>
+                    <span class="logo-title"><i class="fa fa-home"></i></span>
                 </a>
             </h1><!--//logo-->              
             <nav id="main-nav" class="main-nav navbar-right" role="navigation">
@@ -63,6 +64,7 @@
                     <ul class="nav navbar-nav">
                         <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
                         <li class="nav-item"><a class="scrollto" href="#about">About</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#demo">Demo</a></li>
                         <li class="nav-item"><a class="scrollto" href="#features">Features</a></li>
                         <li class="nav-item"><a class="scrollto" href="#license">License</a></li>                        
                         <li class="nav-item last"><a class="scrollto" href="#contact">Contact</a></li>
@@ -75,20 +77,27 @@
     <!-- ******PROMO****** -->
     <section id="promo" class="promo section offset-header">
         <div class="container text-center">
-	    <img src="public/images/applogo.png" width="400px" alt="zmNinja"></a>
+	    <img src="public/images/applogo.png" width="400px" alt="zmNinja"></a><span class="btns">
+                <a style="margin-top:30px" class="animated flipInX btn btn-cta-secondary scrollto" href="#demo">Demo</a>
+            </span>
+
             <!-- <h2 class="title"><span class="highlight">zmNinja</span></h2> -->
             <p class="intro">An awesome app that watches your home when you can't. Best buddies with ZoneMinder</p>
 
+	    <p class="intro animated zoomIn">
+		<i class="fa fa-apple fa-2x"></i></a>&nbsp;&nbsp;&nbsp;<i class="fa fa-android fa-2x"></i>&nbsp;&nbsp;&nbsp;<i class="fa fa-windows fa-2x"></i>&nbsp;&nbsp;&nbsp;<i class="fa fa-linux fa-2x"></i>
+
+
+	    </p>
+
+<br/>
 <center>
-<a href="https://itunes.apple.com/us/app/zmninja-pro/id1067914954?mt=8"><img src="public/images/apple.png" width="200px" alt="Get in on App Store"></a>
-<a href="https://play.google.com/store/apps/details?id=com.pliablepixels.zmninja_pro&hl=en&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Get it on Google Play" src="public/images/google.png" width="200px"/></a>
+<a href="https://itunes.apple.com/us/app/zmninja-pro/id1067914954?mt=8"><img src="public/images/apple.png" width="150px" alt="Get in on App Store"></a>
+<a href="https://play.google.com/store/apps/details?id=com.pliablepixels.zmninja_pro&hl=en&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Get it on Google Play" src="public/images/google.png" width="150px"/></a>
 </center>
 <p/><br/><br/>
 
-            <div class="btns">
-                <a class="btn btn-cta-secondary" href="https://youtu.be/prtA_mv68Ok" target="_blank">Demo</a>
-            </div>
-            <ul class="meta list-inline">
+                        <ul class="meta list-inline">
                 <li><a href="https://github.com/pliablepixels/zmNinja" target="_blank">View on GitHub</a></li>
                 <li><a href="https://github.com/pliablepixels/zmNinja/wiki/FAQ" target="_blank">Frequently Asked Questions</a></li>
             </ul><!--//meta-->
@@ -183,34 +192,39 @@
         </div><!--//container-->
     </section><!--//about-->
 
-    <!-- ******FEATURES****** --> 
-    <section id="features" class="features section">
-        <div class="container text-center">
-            <h2 class="title">Features</h2>
-            <ul class="feature-list list-unstyled">
-                <li><i class="fa fa-check"></i> Multiple ZM server support</li>
-                <li><i class="fa fa-check"></i> Live View, Event View</li>
-                <li><i class="fa fa-check"></i> PTZ support</li>
-                <li><i class="fa fa-check"></i> Awesome quick scrub mode for events</li>
-                <li><i class="fa fa-check"></i> Push Notifications! (needs event server)</li>
-                <li><i class="fa fa-check"></i> Timeline view</li>
-                <li><i class="fa fa-check"></i> Quick pullup sheet on events</li>
-                <li><i class="fa fa-check"></i> Fully responsive for tablets and phones</li>
-                <li><i class="fa fa-check"></i> Native like performance, built using <a href="http://ionicframework.com">ionic</a></li>
-            </ul>
-        </div><!--//container-->
-    </section><!--//features-->
-
-    <!-- ******DOCS****** --> 
-<!--
-    <section id="docs" class="docs section">
+    <section id="demo" class="docs section">
         <div class="container">
             <div class="docs-inner">
-            <h2 class="title text-center">In progress</h2>            
-                        </div><!--//docs-inner-->         
+            <h2 class="title text-center">Demo</h2>            
+		     <center>
+		      <iframe width="420" height="315" src="https://www.youtube.com/embed/prtA_mv68Ok" 
+			frameborder="0" allowfullscreen></iframe>
+		     </center>
+             </div><!--//docs-inner-->         
         </div><!--//container-->
     </section><!--//docs->
--->
+
+    <!-- ******FEATURES****** --> 
+    <section id="features" class="features section">
+	<div class="row">
+		<div class="col-md-4" ></div>
+		<div class="col-md-4 container" >
+		    <h2 class="title">Features</h2>
+		    <ul class="feature-list list-unstyled">
+			<li><i class="fa fa-check"></i> Multiple ZM server support</li>
+			<li><i class="fa fa-check"></i> Live View, Event View</li>
+			<li><i class="fa fa-check"></i> PTZ support</li>
+			<li><i class="fa fa-check"></i> Awesome quick scrub mode for events</li>
+			<li><i class="fa fa-check"></i> Push Notifications! (needs event server)</li>
+			<li><i class="fa fa-check"></i> Timeline view</li>
+			<li><i class="fa fa-check"></i> Quick pullup sheet on events</li>
+			<li><i class="fa fa-check"></i> Fully responsive for tablets and phones</li>
+			<li><i class="fa fa-check"></i> Native like performance, built using <a href="http://ionicframework.com">ionic</a></li>
+		    </ul>
+		</div><!--//container-->
+		<div class="col-md-4"></div>
+	</div>
+    </section><!--//features-->
 
     <!-- ******LICENSE****** --> 
     <section id="license" class="license section">
