@@ -8,59 +8,61 @@
 {% include head.html %}
 
 
-<body >
-    {% include header.html %}
-<h2 class="title text-center">G blog</h2>
-    
-    <section id="blog" class="docs section">
-     <div class="container">
-         
-         
-        <div class = "docs-inner">
-    <div class="row">
-       
-        
-        <div class="col-md-8">
+<body>
+    {% include header_blog.html %}
 
-            {% for post in site.posts %}
-            
-               
-                   
+    <h2 style="padding-top:100px" class="title text-center">zmNinja blog</h2>
+
+
+    <div class="container">
+
+
+
+        <div class="row">
+
+
+            <div class="col-md-8">
+
+                {% for post in site.posts %}
+                <section id="blog" class="blog">
+                    <div class="blog-inner">
+
                         <h3 class="title text-left">{{ post.title }}</h3>
                         <div class="text-left">
-                            <span class="date">{{ post.date }}</span>
+                            <span class="date"><b>{{ post.date | date: "%-d %B %Y" }}</b></span>
                         </div>
-
+                        <br/>
 
                         <div class="text-left">
                             {{ post.content }}
                         </div>
+                    </div>
+                </section>
+                {% endfor %}
 
-            {% endfor %}
-                   
-        </div>
-            
-        
-         <div class="col-md-4">
-            <h4>Archives</h4>
-                
-           
-                <ul >
+            </div>
+
+
+            <div class="col-md-4">
+                <h4>Archives</h4>
+
+
+                <ul>
                     {% for post in site.posts %}
                     <li>
                         <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%d %B %Y" }}
                     </li>
                     {% endfor %}
                 </ul>
-          
-                      
+
+
+            </div>
+
+
         </div>
-                
-            
     </div>
-    </div>
-         </div>
-    </section>
+
+
     {% include footer.html %}
 
 </body>

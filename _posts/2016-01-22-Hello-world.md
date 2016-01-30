@@ -1,5 +1,6 @@
 ---
 layout: blog
-title: Blogging Like a Hacker
+title: Hello world
 ---
-Hello There this is a starter
+Hey there. I just set up this blog using Jekyll.
+I look forward to keeping this updated 
