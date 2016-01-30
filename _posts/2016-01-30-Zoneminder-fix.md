@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: zmNinja data consumption in the background
+comments: true
 ---
 
 Hi there, for those of you who have noticed that zmNinja consumes a lot of data in the background, the problem has been fixed.

@@ -5,6 +5,7 @@ email: pliablepixels@gmail.com
 description: "Better than sliced toast by 73%. FDA might have said so"
 baseurl: ""
 #url: "http://localhost:4000"
+disqusid: zmNinja
 
 # Build settings
 markdown: kramdown
