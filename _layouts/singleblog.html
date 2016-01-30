@@ -23,23 +23,21 @@
 
             <div class="col-md-8">
 
-                {% for post in site.posts %}
                 <section id="blog" class="blog">
                     <div class="blog-inner">
 
-                        <h3 class="title text-left"><a href="{{post.url}}">{{ post.title }}</a></h3>
+                        <h3 class="title text-left">{{ page.title }}</h3>
                         <div class="text-left">
-                            <span class="date"><b>{{ post.date | date: "%-d %B %Y" }}</b></span>
+                            <span class="date"><b>{{ page.date | date: "%-d %B %Y" }}</b></span>
                         </div>
                         <br/>
 
                         <div class="text-left">
-                            {{ post.excerpt }}
-			    <a href="{{ post.url }}">&nbsp...more</a>
+                            {{ page.content }}
                         </div>
                     </div>
                 </section>
-                {% endfor %}
+                {% include comments.html %}
 
             </div>
 

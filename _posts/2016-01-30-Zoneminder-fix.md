@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: singleblog
 title: zmNinja data consumption in the background
 comments: true
 ---

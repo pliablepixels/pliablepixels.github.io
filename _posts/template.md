@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: singleblog
 title: My Title
 comments: true
 ---
