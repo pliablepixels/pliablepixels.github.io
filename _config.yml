@@ -1,0 +1,11 @@
+# Site settings
+name: zmNinja
+title: Awesome companion app for ZoneMinder
+email: your-email@domain.com
+description: "Better than sliced toast by 73%. FDA might have said so"
+baseurl: ""
+#url: "http://zoneminder.com"
+
+# Build settings
+markdown: kramdown
+permalinks: pretty
