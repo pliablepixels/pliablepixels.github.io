@@ -1,37 +1,68 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->         
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
 {% include head.html %}
-<body data-spy="scroll">
-{% include facebook.html %}
-{% include header.html %}
 
 
-	<div class="container">
+<body >
+    {% include header.html %}
+<h2 class="title text-center">G blog</h2>
+    
+    <section id="blog" class="docs section">
+     <div class="container">
+         
+         
+        <div class = "docs-inner">
+    <div class="row">
+       
+        
+        <div class="col-md-8">
 
-<div class="row">
-	<div class="col-md-9">
-    <h1>{{ page.title }}</h1>
-    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-				
-				{{ content }}
-	</div>
+            {% for post in site.posts %}
+            
+               
+                   
+                        <h3 class="title text-left">{{ post.title }}</h3>
+                        <div class="text-left">
+                            <span class="date">{{ post.date }}</span>
+                        </div>
 
-	<div class="col-md-3 well">
-		<h3>Latest Entries</h3>
 
-		<ul>
-		  {% for post in site.posts %}
-		    <li>
-		      <a href="{{ post.url }}">{{ post.title }}</a>
-		    </li>
-		  {% endfor %}
-		</ul>
-	</div>
-</div>
-	
+                        <div class="text-left">
+                            {{ post.content }}
+                        </div>
 
-	</div>
+            {% endfor %}
+                   
+        </div>
+            
+        
+         <div class="col-md-4">
+            <h4>Archives</h4>
+                
+           
+                <ul >
+                    {% for post in site.posts %}
+                    <li>
+                        <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%d %B %Y" }}
+                    </li>
+                    {% endfor %}
+                </ul>
+          
+                      
+        </div>
+                
+            
+    </div>
+    </div>
+         </div>
+    </section>
+    {% include footer.html %}
 
-{% include footer.html %}
+</body>
+
+</html>
