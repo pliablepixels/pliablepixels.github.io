@@ -90,6 +90,11 @@ a.btn-cta-secondary:hover,
 pre code {
   font-size: 16px;
 }
+
+.container
+{
+	width:100% !important;
+}
 /* ======= Header ======= */
 .header {
   padding: 10px 0;
@@ -374,11 +379,9 @@ pre code {
   margin: 0 auto;
 }
 .license .info {
-  max-width: 760px;
   margin: 0 auto;
 }
 .license .cta-container {
-  max-width: 540px;
   margin: 0 auto;
   margin-top: 60px;
   -webkit-border-radius: 4px;
@@ -434,7 +437,6 @@ pre code {
   color: #fff;
 }
 .contact .contact-inner {
-  max-width: 760px;
   margin: 0 auto;
 }
 .contact .title {
