@@ -34,8 +34,12 @@
                         <br/>
 
                         <div class="text-left">
-                            {{ post.excerpt }}
-			    <a href="{{ post.url }}">&nbsp...more</a>
+			    {% if post.url == site.posts.first.url %}
+				{{ post.content }}
+		 	    {% else %}
+                            	{{ post.excerpt }}
+			    	<a href="{{ post.url }}">&nbsp...more</a>
+			    {% endif %}
                         </div>
                     </div>
                 </section>

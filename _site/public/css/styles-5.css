@@ -195,7 +195,6 @@ pre code {
 }
 .promo .intro {
   font-size: 28px;
-  max-width: 680px;
   margin: 0 auto;
   margin-bottom: 30px;
 }
@@ -242,7 +241,6 @@ pre code {
   margin-bottom: 60px;
 }
 .about .intro {
-  max-width: 800px;
   margin: 0 auto;
   margin-bottom: 60px;
 }
@@ -308,7 +306,6 @@ pre code {
   margin-bottom: 30px;
 }
 .docs .docs-inner {
-  /*max-width: 800px;*/
   background: #fff;
   padding: 10px;
   -webkit-border-radius: 4px;
@@ -324,7 +321,6 @@ pre code {
 
 
 .blog .blog-inner {
-  /*max-width: 800px;*/
   background: #e3e3e3;
   padding: 10px;
   -webkit-border-radius: 4px;
@@ -365,7 +361,6 @@ pre code {
   color: #041915;
 }
 .license .license-inner {
-  max-width: 800px;
   background: #fff;
   padding: 30px;
   -webkit-border-radius: 4px;
