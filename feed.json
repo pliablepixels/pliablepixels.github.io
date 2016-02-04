@@ -8,6 +8,7 @@ layout: null
           "title"    : "{{ post.title }}",
           "url"     : "{{site.url}}{{ post.url }}",
           "date"     : "{{ post.date | date: "%B %d, %Y" }}"
+	  "level"    : {{post.level}}
         } {% if forloop.last %}{% else %},{% endif %}
     {% endfor %}
     ] 
