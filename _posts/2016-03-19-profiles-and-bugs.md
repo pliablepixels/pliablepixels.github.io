@@ -18,12 +18,11 @@ LAN/WAN. You can now specify server profiles as "fallbacks" to other profiles. T
 
 1.1.2 makes it always easy to know which profile you are currently using:
 
-![Profile](/public/images/profilename.png)
+<img class="img-responsive" src = "/public/images/profilename.png" />
 
 And when you now go to settings, you see a new "fallback" option. Note that to do LAN/WAN switching, specify the LAN profile to be the fallback for WAN and WAN to be fallback for LAN
 
-![Fallback](/public/images/fallback.png)
-
+<img class="img-responsive" src = "/public/images/fallback.png">
 
 Please read full CHANGELOG [here](https://github.com/pliablepixels/zmNinja/blob/v1.1.2/CHANGELOG.md)
 

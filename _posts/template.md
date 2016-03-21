@@ -5,5 +5,5 @@ comments: true
 level: critical
 ---
 This is a test to see images
-![My helpful screenshot](/public/images/apple.png)
+<img class="img-responsive" src = "/public/images/apple.png">
 
