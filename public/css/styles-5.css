@@ -37,7 +37,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #107360;
+  color: #256e9f;
 }
 .btn,
 a.btn {
@@ -215,13 +215,13 @@ pre code {
 .promo .meta {
   margin-top: 120px;
   margin-bottom: 30px;
-  color: #0a463a;
+  color: #256e9f;
 }
 .promo .meta li {
   margin-right: 15px;
 }
 .promo .meta a {
-  color: #0a463a;
+  color: #256e9f;
 }
 .promo .meta a:hover {
   color: #041915;
@@ -404,7 +404,7 @@ pre code {
   background-clip: padding-box;
 }
 .license .cta-container .speech-bubble {
-  background: #92f0de;
+  background: #74c8ff;
   color: #041915;
   padding: 30px;
   margin-bottom: 30px;
@@ -486,7 +486,7 @@ pre code {
 }
 .contact .author-message .speech-bubble {
   margin-left: 155px;
-  background: #14937a;
+  background: #74c8ff;
   color: #041915;
   padding: 30px;
   -webkit-border-radius: 4px;
@@ -530,7 +530,7 @@ pre code {
   color: #256e9f;
 }
 .contact .info .sub-title {
-  color: #107360;
+  color: #256e9f;
   margin-bottom: 30px;
   margin-top: 0;
 }
@@ -566,7 +566,7 @@ pre code {
   float: left;
 }
 .contact .social-icons a:hover {
-  background: #143e36;
+  background: #256e9f;
 }
 .contact .social-icons a .fa {
   color: #fff;
