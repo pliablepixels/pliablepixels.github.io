@@ -9,8 +9,9 @@ comments: true
 <b>Click <a href="
 https://play.google.com/apps/testing/com.pliablepixels.zmninja_pro">HERE</a> to join the beta (need to have bought the app from play store first)</b>. And please shoot me an <a href="mailto:pliablepixels@gmail.com">email</a> when you join!
 
-Holy Bugmarole! I released 1.2.0 a few days ago, _after_ testing both debug and release builds thoroughly and I started driving home.
-By the time I drove 15 minutes, I got 10 emails about the app not starting. Boom. 
+Holy Bugmarole! I released 1.2.0 a few days ago, _after_ testing both debug and release builds thoroughly and I started driving home, with a nice cabernet with my name on it when I reached.
+
+By the time I drove 15 minutes, I got 10 emails about the app not starting. Boom. As it turned out the app was not working for many folks. And this bug was not ubiquotous. It worked on some, didn't on some devices.
 
 To cut a long story short, there were two users who actually helped tremendously - Christopher Abramson and Tim Sharpe. While the others were busy taking out ratings in the playstore (don't blame them!) these folks offered their help and after a lot of testing, we figured out that the DB change I implemented (for the better) was crashing only on _some_ Android devices. And yes, there were some other errors too.
 
