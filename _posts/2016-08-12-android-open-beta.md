@@ -24,4 +24,6 @@ Love for you to help (pretty please!) - by testing betas, so I can avoid disaste
 
 Oh and Chris and Tim, thanks for your patience - happy to take you out for beer (or wine) if we ever meet!
 
+(PS: If you know what 'logcat' is, and don't think its a form of a furry cat,  and have 'adb' you will make it to my hall of fame)
+
 ~PP
