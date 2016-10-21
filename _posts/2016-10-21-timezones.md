@@ -9,7 +9,7 @@ That's because he was in a different timezone that was behind the timezone where
 
 While this is funny, imagine the opposite. You are on travel, your house is being broken into and your event time says it occurred an hour ago due to Timezone differences - thats serious.
 
-While this was fine earlier, apps like zmNinja has drastically increased access of ZoneMinder via phones. And people with phones often travel. One of the most common use-cases I keep hearing from my users is they have company executives who want to see cameras on their phones while on travel. Time without timezone conversions here could be problematic.
+While this was fine earlier, zmNinja has drastically increased access of ZoneMinder via phones. And solutions like <a href="https://github.com/pliablepixels/zmeventserver">zmeventnotification</a> have made it easier to be notified of alarms and events in real time. And people with phones often travel. One of the most common use-cases I keep hearing from my users is they have company executives who want to see cameras on their phones while on travel. Time without timezone conversions here could be problematic.
 
 Well, the problem is that ZoneMinder doesn't provide any TimeZone information at all. It simply doesn't store any timezone data in any of its event data, so its impossible to know the timezone remotely, unless you force configure it, which is crappy.
 
